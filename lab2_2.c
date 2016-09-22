@@ -1,15 +1,15 @@
 /*
 ##################################################################
 	Name:		John Walter 
-	Date:		9/8/2016
+	Date:		9/20/2016
 	Class:		ECE 3220
 	Assignment:	Lab 2 part 2 - Arithmetic and bitwise conversions
 				from decimal to binary
 ##################################################################
 */ 
 
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int main(void){
 	int choice = 0, i=0, bit = 0, location = 0, length = sizeof(unsigned short); //gets the number of BYTES of an unsigned short
